@@ -35,7 +35,14 @@
           </li>
         </ul>
 
-        <form id="nav-split" class="form-inline my-2 my-lg-0">
+        <div id="nav-split" class="form-inline my-2 my-lg-0">
+          <%= form_with(url: search_cards_path, method: :get, local: true) do %>
+              <%= text_field_tag(:keywords, nil, class: "input", placeholder: "Yugioh Cards") %>
+              <%= submit_tag("Search", class: "button is-primary") %>
+          <% end %>
+        </div>
+
+        <%# <form id="nav-split" class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <select class="select" data-mdb-filter="true">
             <option value="1">One</option>
@@ -50,7 +57,7 @@
             <option value="10">Ten</option>
           </select>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        </form> %>
       </div>
     </nav>
 

@@ -9,6 +9,7 @@
 require 'csv'
 
 Card.destroy_all
+Rarity.destroy_all
 
 csv_file = Rails.root.join('db/Yugi_db_cleaned.csv')
 csv_data = File.read(csv_file)
@@ -23,11 +24,15 @@ yugioh = CSV.parse(csv_data, headers: true)
 #   power: "400 / 500")
 
 yugioh.each do |data|
-    Card.create(
+  rarity = Rarity.find_or_create_by(name: data["Rarity"])
+
+  if rarity && rarity.valid?
+    rarity.card.create(
       name: data['card name'],
       ability: data['Card type'],
       photo: data['image'],
       ele: data['Attribute'],
       power: data['ATK / DEF']
     )
+  end
 end

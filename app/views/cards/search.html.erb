@@ -1,0 +1,8 @@
+<p class="mb-5">
+  Yugioh cards found when search for: <%= params[:keywords] %>
+</p>
+<ul>
+  <% @cards.each do |card| %>
+    <li><%= link_to card.name, card %></li>
+  <% end %>
+</ul>

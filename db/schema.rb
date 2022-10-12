@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_12_180745) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_12_203734) do
   create_table "cards", force: :cascade do |t|
     t.string "name"
     t.string "ability"
@@ -19,6 +19,15 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_12_180745) do
     t.string "power"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "rarity_id", null: false
+    t.index ["rarity_id"], name: "index_cards_on_rarity_id"
   end
 
+  create_table "rarities", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "cards", "rarities"
 end
