@@ -17,7 +17,10 @@ yugioh = CSV.parse(csv_data, headers: true)
 
 Card.create(
   card_name: "Test",
-  card_type: "Testing"
+  card_type: "Testing",
+  card_image: "",
+  attributes: "",
+  stats: ""
 )
 
 # yugioh.each do |data|

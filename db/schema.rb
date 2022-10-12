@@ -10,32 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_12_051302) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_12_160421) do
   create_table "cards", force: :cascade do |t|
     t.string "card_name"
     t.string "card_type"
-    t.string "card_image"
+    t.text "card_image"
     t.string "attributes"
-    t.string "stats"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "effect_types", force: :cascade do |t|
-    t.string "effect_type"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "types", force: :cascade do |t|
-    t.string "type_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.string "card_name"
+    t.text "stats"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
