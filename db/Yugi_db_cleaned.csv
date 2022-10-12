@@ -1,4 +1,4 @@
-Image_name,Card-set,Card_number,Rarity,Card_name,Other names,Card type,Attribute,Types,Level,ATK / DEF,Password,Status,Effect types,Ritual required,Property,Ritual Monster required,Pendulum Scale,Rank,Link Arrows,ATK / LINK,Other names (Japanese),Summoned by the effect of
+image,Card-set,Card_number,Rarity,card name,Other names,Card type,Attribute,Types,Level,ATK / DEF,Password,Status,Effect types,Ritual required,Property,Ritual Monster required,Pendulum Scale,Rank,Link Arrows,ATK / LINK,Other names (Japanese),Summoned by the effect of
 MRD-116 R.png,Metal Raiders,MRD-116,Rare,Witch of the Black Forest,,Monster,DARK,Spellcaster / Effect,4.0,1100 / 1200,78010363,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Trigger', 'Condition']",,,,,,,,,
 PHSW-EN014 C.png,Photon Shockwave,PHSW-EN014,Common,Plasma Ball,,Monster,LIGHT,Thunder / Effect,3.0,900 / 900,92595545,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Continuous', 'Trigger']",,,,,,,,,
 ROTD-EN030 UR.png,Rise of the Duelist,ROTD-EN030,Ultra Rare,Koa'ki Meiru Supplier,,Monster,EARTH,Rock / Effect,4.0,1400 / 1600,80839052,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Trigger', 'Trigger', 'Condition']",,,,,,,,,
@@ -287,7 +287,7 @@ BLVO-EN038 C.png,Blazing Vortex,BLVO-EN038,Common,Sprind the Irondash Dragon,,Mo
 DUEA-EN016 R.png,Duelist Alliance,DUEA-EN016,Rare,Mozarta the Melodious Maestra,,Monster,LIGHT,Fairy / Effect,8.0,2600 / 2000,03395226,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Ignition', 'Condition']",,,,,,,,,
 NECH-EN000 SR.png,The New Challengers,NECH-EN000,Super Rare,Lancephorhynchus,,Monster,WIND,Dinosaur / Pendulum / Normal,6.0,2500 / 800,48940337,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Pendulum Effect ', 'Continuous-like']",,,,7.0,,,,,
 ABYR-EN028 C.png,Abyss Rising,ABYR-EN028,Common,Abyss Warrior,,Monster,WATER,Aqua / Effect,4.0,1800 / 1300,88409165,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Ignition'],,,,,,,,,
-SOI-EN046 C.png,Shadow of Infinity,SOI-EN046,Common,End of the World,,Spell,,,,,08198712,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Effect'],,Ritual,"""Ruin, Queen of Oblivion""  
+SOI-EN046 C.png,Shadow of Infinity,SOI-EN046,Common,End of the World,,Spell,,,,,08198712,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Effect'],,Ritual,"""Ruin, Queen of Oblivion""
 ""Demise, King of Armageddon""",,,,,,
 EXVC-EN058 C.png,Extreme Victory,EXVC-EN058,Common,Runaway Karakuri,,Spell,,,,,83831356,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Effect'],,Quick-Play,,,,,,,
 GFP2-EN082 UR.png,Ghosts From the Past: The 2nd Haunting,GFP2-EN082,Ultra Rare,Code Generator,,Monster,EARTH,Cyberse / Effect,3.0,1300 / 500,30114823,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Unclassified', 'Trigger', 'Condition']",,,,,,,,,
@@ -1005,7 +1005,7 @@ EXFO-EN085 SR.png,Extreme Force,EXFO-EN085,Super Rare,Vendread Revolution,,Trap,
 CRMS-EN069 C.png,Crimson Crisis,CRMS-EN069,Common,Ebon Arrow,,Trap,,,,,88341502,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Trigger-like']",,Normal,,,,,,,
 EXVC-EN005 ScR.png,Extreme Victory,EXVC-EN005,Secret Rare,Mystic Piper,,Monster,LIGHT,Spellcaster / Effect,1.0,0 / 0,14198496,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Ignition', 'Condition']",,,,,,,,,
 PHSW-EN070 C.png,Photon Shockwave,PHSW-EN070,Common,Lumenize,,Trap,,,,,57115864,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Activation requirement', 'Effect']",,Normal,,,,,,,
-SOD-EN017 C.png,Soul of the Duelist,SOD-EN017,Common,Black Dragon's Chick,"Red-Eyes Black Chick 
+SOD-EN017 C.png,Soul of the Duelist,SOD-EN017,Common,Black Dragon's Chick,"Red-Eyes Black Chick
 Red-Eyes B. Chick",Monster,DARK,Dragon / Effect,1.0,800 / 500,36262024,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Ignition'],,,,,,,,,
 SOI-EN034 SR.png,Shadow of Infinity,SOI-EN034,Super Rare,"Ruin, Queen of Oblivion",,Monster,LIGHT,Fairy / Ritual / Effect,8.0,2300 / 2000,46427957,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Summoning condition', 'Trigger']","""End of the World""",,,,,,,,
 SAST-EN072 C.png,Savage Strike,SAST-EN072,Common,Guardragon Corewakening,,Trap,,,,,11908584,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Quick-like', 'Condition']",,Continuous,,,,,,,
@@ -3102,7 +3102,7 @@ ANPR-EN083 UR.png,Ancient Prophecy,ANPR-EN083,Ultra Rare,Koa'ki Meiru Gravirose,
 MFC-067 C.png,Magician's Force,MFC-067,Common,Old Vindictive Magician,,Monster,DARK,Spellcaster / Flip / Effect,2.0,450 / 600,45141844,"['Unlimited (OCG)', 'Unlimited (TCG)', 'Unlimited (TCG Speed Duel)']",['Flip'],,,,,,,,,
 ABPF-EN044 UR.png,Absolute Powerforce,ABPF-EN044,Ultra Rare,XX-Saber Hyunlei,,Monster,EARTH,Warrior / Synchro / Effect,6.0,2300 / 1300,02203790,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Trigger'],,,,,,,,,
 MRL-008 C.png,Spell Ruler,MRL-008,Common,Electric Snake,,Monster,LIGHT,Thunder / Effect,3.0,800 / 900,11324436,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Trigger'],,,,,,,,,
-RATE-EN060 C.png,Raging Tempest,RATE-EN060,Common,Shinobird's Calling,,Spell,,,,,73055622,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Effect'],,Ritual,"""Shinobaroness Peacock""  
+RATE-EN060 C.png,Raging Tempest,RATE-EN060,Common,Shinobird's Calling,,Spell,,,,,73055622,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Effect'],,Ritual,"""Shinobaroness Peacock""
 ""Shinobaron Peacock""",,,,,,
 COTD-EN054 SR.png,Code of the Duelist,COTD-EN054,Super Rare,Gouki Re-Match,,Spell,,,,,62376646,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Condition']",,Normal,,,,,,,
 CYHO-EN059 ScR.png,Cybernetic Horizon,CYHO-EN059,Secret Rare,Cyber Revsystem,,Spell,,,,,33041277,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Lingering']",,Normal,,,,,,,
@@ -3729,7 +3729,7 @@ STOR-EN055 SR.png,Storm of Ragnarok,STOR-EN055,Super Rare,Stardust Shimmer,,Spel
 POTD-EN008 R.png,Power of the Duelist,POTD-EN008,Rare,Submarineroid,,Monster,WATER,Machine / Effect,4.0,800 / 1800,99861526,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Continuous', 'Trigger']",,,,,,,,,
 RDS-EN027 C.png,Rise of Destiny,RDS-EN027,Common,Mirage Dragon,,Monster,LIGHT,Dragon / Effect,4.0,1600 / 600,15960641,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Continuous'],,,,,,,,,
 POTD-EN059 C.png,Power of the Duelist,POTD-EN059,Common,Synthetic Seraphim,,Trap,,,,,16946849,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Continuous-like'],,Continuous,,,,,,,
-CYHO-EN056 C.png,Cybernetic Horizon,CYHO-EN056,Common,Cycle of the World,,Spell,,,,,32828635,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Ignition-like']",,Ritual,"""Ruin, Queen of Oblivion""  
+CYHO-EN056 C.png,Cybernetic Horizon,CYHO-EN056,Common,Cycle of the World,,Spell,,,,,32828635,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Ignition-like']",,Ritual,"""Ruin, Queen of Oblivion""
 ""Demise, King of Armageddon""",,,,,,
 PGD-010 C.png,Pharaonic Guardian,PGD-010,Common,Timeater,,Monster,DARK,Machine / Effect,6.0,1900 / 1700,44913552,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Trigger'],,,,,,,,,
 LODT-EN029 C.png,Light of Destruction,LODT-EN029,Common,Unifrog,,Monster,WATER,Aqua / Effect,2.0,400 / 400,56052205,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Continuous', 'Trigger']",,,,,,,,,
@@ -5043,7 +5043,7 @@ TDGS-EN074 SR.png,The Duelist Genesis,TDGS-EN074,Super Rare,Gladiator Beast War 
 FLOD-EN070 C.png,Flames of Destruction,FLOD-EN070,Common,Altergeist Emulatelf,,Trap,,,,,86885905,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Continuous']",,Continuous,,,,,,,
 LOB-050 C.png,Legend of Blue Eyes White Dragon,LOB-050,Common,Umi,,Spell,,,,,22702055,"['Unlimited (OCG)', 'Unlimited (TCG)', 'Unlimited (TCG Speed Duel)']",['Continuous-like'],,Field,,,,,,,
 PTDN-EN061 C.png,Phantom Darkness,PTDN-EN061,Common,Gladiator Proving Ground,,Spell,,,,,35224440,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Effect'],,Normal,,,,,,,
-ANPR-EN090 R.png,Ancient Prophecy,ANPR-EN090,Rare,Arcana Knight Joker,"Arkana Knight Joker 
+ANPR-EN090 R.png,Ancient Prophecy,ANPR-EN090,Rare,Arcana Knight Joker,"Arkana Knight Joker
 Alkana Knight Joker",Monster,LIGHT,Warrior / Fusion / Effect,9.0,3800 / 2500,06150044,"['Unlimited (OCG)', 'Unlimited (TCG)', 'Unlimited (TCG Speed Duel)']","['Summoning condition', 'Quick']",,,,,,,,,
 AST-033 C.png,Ancient Sanctuary,AST-033,Common,White Magician Pikeru,,Monster,LIGHT,Spellcaster / Effect,2.0,1200 / 0,81383947,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Trigger'],,,,,,,,,
 PHRA-EN026 C.png,Phantom Rage,PHRA-EN026,Common,Magical Broker,,Monster,DARK,Spellcaster / Effect,3.0,1500 / 200,72171665,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Continuous', 'Quick', 'Condition']",,,,,,,,,
@@ -5473,7 +5473,7 @@ STOR-EN084 ScR.png,Storm of Ragnarok,STOR-EN084,Secret Rare,Scrap Breaker,,Monst
 COTD-EN047 R.png,Code of the Duelist,COTD-EN047,Rare,Imduk the World Chalice Dragon,,Monster,WIND,Dragon / Link / Effect,,,31226177,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Continuous', 'Trigger', 'Trigger']",,,,,,Top-Center,800 / 1,,
 INOV-EN072 C.png,Invasion: Vengeance,INOV-EN072,Common,Crystron Impact,,Trap,,,,,99274184,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Effect', 'Quick-like']",,Normal,,,,,,,
 ABPF-EN020 C.png,Absolute Powerforce,ABPF-EN020,Common,Fire Ant Ascator,,Monster,EARTH,Insect / Tuner / Effect,3.0,700 / 1300,78275321,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Trigger'],,,,,,,,,
-LODT-EN095 SR.png,Light of Destruction,LODT-EN095,Super Rare,Helios Trice Megistus,"Helios Tris Megiste 
+LODT-EN095 SR.png,Light of Destruction,LODT-EN095,Super Rare,Helios Trice Megistus,"Helios Tris Megiste
 Helios Tris Megistus",Monster,LIGHT,Pyro / Effect,8.0,? / ?,17286057,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Unclassified', 'Continuous', 'Trigger', 'Trigger']",,,,,,,,,
 PHSW-EN085 UR.png,Photon Shockwave,PHSW-EN085,Ultra Rare,"Latinum, Exarch of Dark World",,Monster,DARK,Fiend / Effect,6.0,1500 / 2400,15667446,"['Unlimited (OCG)', 'Unlimited (TCG)']",['Trigger'],,,,,,,,,
 MAGO-EN037 PGR.png,Maximum Gold,MAGO-EN037,Premium Gold Rare,Zoodiac Chakanine,,Monster,EARTH,Beast-Warrior / Xyz / Effect,,? / ?,41375811,"['Unlimited (OCG)', 'Unlimited (TCG)']","['Summoning condition', 'Continuous', 'Ignition']",,,,,4.0,,,,

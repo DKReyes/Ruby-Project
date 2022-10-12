@@ -15,22 +15,19 @@ csv_data = File.read(csv_file)
 
 yugioh = CSV.parse(csv_data, headers: true)
 
-Card.create(
-  card_name: "Test",
-  card_type: "Testing",
-  card_image: "",
-  attributes: "",
-  stats: ""
-)
+# Card.create(
+#   name: "One",
+#   ability: "Spell",
+#   photo: "Test",
+#   ele: "Light",
+#   power: "400 / 500")
 
-# yugioh.each do |data|
-#   if data['Card_name'] && data['Card type']
-#     Card.create(
-#       card_name: data['Card_name'],
-#       card_type: data['Card type']
-#       # card_image: data['Image_name'],
-#       # attributes: data['Attribute'],
-#       # stats: data['ATK / DEF']
-#     )
-#   end
-# end
+yugioh.each do |data|
+    Card.create(
+      name: data['card name'],
+      ability: data['Card type'],
+      photo: data['image'],
+      ele: data['Attribute'],
+      power: data['ATK / DEF']
+    )
+end

@@ -2,14 +2,14 @@
 
 one:
   name: MyString
-  type: 
-  image: MyText
-  attributes: MyString
-  stats: MyText
+  ability: MyString
+  photo: MyString
+  ele: MyString
+  power: MyString
 
 two:
   name: MyString
-  type: 
-  image: MyText
-  attributes: MyString
-  stats: MyText
+  ability: MyString
+  photo: MyString
+  ele: MyString
+  power: MyString

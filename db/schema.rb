@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_12_160421) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_12_180745) do
   create_table "cards", force: :cascade do |t|
-    t.string "card_name"
-    t.string "card_type"
-    t.text "card_image"
-    t.string "attributes"
-    t.text "stats"
+    t.string "name"
+    t.string "ability"
+    t.string "photo"
+    t.string "ele"
+    t.string "power"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

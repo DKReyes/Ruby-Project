@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'cards/index'
+  get 'cards/show'
   get 'card/index'
   get 'card/show'
   root "articles#index"
