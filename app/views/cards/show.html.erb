@@ -1,2 +1,8 @@
-<h1>Cards#show</h1>
-<p>Find me in app/views/cards/show.html.erb</p>
+<h1><%= @card.name %></h1>
+
+<%= image_tag "Yugi_images/" + @card.photo, height: 500, alt: @card.photo %>
+<p><%= @card.ability %></p>
+<p><%= @card.ele %></p>
+<p><%= @card.power %></p>
+
+
