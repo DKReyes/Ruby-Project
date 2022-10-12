@@ -1,4 +1,6 @@
-<div class="jumbotron text-center">
+<%= stylesheet_link_tag "GeneralStyle.css" %>
+
+<div id="header" class="jumbotron text-center">
   <h1>About Page - Dataset & ERD</h1>
   <p>Details on the data used and the ERD</p>
 </div>
@@ -6,9 +8,11 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>Data Source and Information</h3>
+      <p>
+        My Dataset I picked is the Yugioh Dataset that was obtain through Kraggle. Since this dataset contains a lot of information,
+        I will be extracting specifically each card’s information and splitting the types, effect type, atk/def into separate tables.
+      </p>
     </div>
     <div class="col-lg-6">
       <h3>ERD</h3>
