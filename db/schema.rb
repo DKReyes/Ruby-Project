@@ -16,8 +16,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_12_051302) do
     t.string "card_type"
     t.string "card_image"
     t.string "attributes"
-    t.string "effect_type"
-    t.string "type"
     t.string "stats"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
