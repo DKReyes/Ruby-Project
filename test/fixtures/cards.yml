@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  card_name: MyString
+  card_type: MyString
+  card_image: MyString
+  attributes: MyString
+  effect_type: MyString
+  type: 
+  stats: MyString
+
+two:
+  card_name: MyString
+  card_type: MyString
+  card_image: MyString
+  attributes: MyString
+  effect_type: MyString
+  type: 
+  stats: MyString
