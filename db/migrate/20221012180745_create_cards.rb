@@ -7,6 +7,8 @@ class CreateCards < ActiveRecord::Migration[7.0]
       t.string :ele
       t.string :power
 
+      t.references :user, null: false, foreign_key: true
+      t.references :deck, null: false, foreign_key: true
       t.timestamps
     end
   end
