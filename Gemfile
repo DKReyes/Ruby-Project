@@ -7,7 +7,12 @@ gem 'bootstrap', '~> 5.2.1'
 
 gem 'kaminari'
 
-  gem 'formtastic', '~> 4.0'
+gem 'will_paginate', '~> 3.1.1'
+gem 'will_paginate-bootstrap'
+
+gem 'formtastic', '~> 4.0'
+
+gem "activeadmin", git: "https://github.com/gregbell/active_admin"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
@@ -32,6 +37,8 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+gem 'faker'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
