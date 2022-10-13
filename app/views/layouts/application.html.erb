@@ -10,7 +10,7 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body >
     <div id="header" class="jumbotron text-center">
       <h1>Yugioh Card Wiki</h1>
       <p>Filled with your favourite cards!</p>
@@ -37,9 +37,15 @@
 
         <div id="nav-split" class="form-inline my-2 my-lg-0">
           <%= form_with(url: search_cards_path, method: :get, local: true) do %>
-              <%= text_field_tag(:keywords, nil, class: "input", placeholder: "Yugioh Cards") %>
-              <%= submit_tag("Search", class: "button is-primary") %>
+            <%= text_field_tag(:keywords, nil, class: "input", placeholder: "Yugioh Cards") %>
+            <%=
+              select_tag "rarity",
+              options_from_collection_for_select(Rarity.all, :id, :name),
+              include_blank: true
+            %>
+            <%= submit_tag("Search", class: "button is-primary") %>
           <% end %>
+
         </div>
 
         <%# <form id="nav-split" class="form-inline my-2 my-lg-0">
