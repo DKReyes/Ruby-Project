@@ -43,12 +43,12 @@ yugioh = CSV.parse(csv_data, headers: true)
 #   User.create(username: Faker::Commerce.unique.product_name)
 # end
 
-20.times do
-  Deck.create(
-    title: Faker::Commerce.unique.product_name,
-    user_id: Faker::Number.between(from: 1, to: 15),
-    card_id: Faker::Number.between(from: 1, to: 160)
-  )
-end
+# 20.times do
+#   Deck.create(
+#     title: Faker::Commerce.unique.product_name,
+#     user_id: Faker::Number.between(from: 1, to: 15),
+#     card_id: Faker::Number.between(from: 1, to: 160)
+#   )
+# end
 
 

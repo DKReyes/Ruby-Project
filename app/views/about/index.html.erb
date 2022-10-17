@@ -1,8 +1,7 @@
 <%= stylesheet_link_tag "GeneralStyle.css" %>
 
-<div id="header" class="jumbotron text-center">
+<div class="jumbotron text-center">
   <h1>About Page - Dataset & ERD</h1>
-  <p>Details on the data used and the ERD</p>
 </div>
 
 <div class="container">
@@ -10,8 +9,11 @@
     <div class="col-lg-6">
       <h3>Data Source and Information</h3>
       <p>
-        My Dataset I picked is the Yugioh Dataset that was obtain through Kraggle. Since this dataset contains a lot of information,
-        I will be extracting specifically each card’s information and splitting the types, effect type, atk/def into separate tables.
+        My Dataset I chosen is the Yugioh Dataset that was obtain through Kraggle. Since this dataset contains a lot of information, I will be extracting specifically the card’s title, ability, photo, element, power stats, and a connecting table separate with it’s rarity. In addition to the Yugioh dataset I also include the faker gem that will create the user and deck model.
+        The user table is going to contain a username and user_id and the deck will contain the title, user_id (FK), and card_id(FK).
+      </p>
+      <p>
+        The relationships between each table will have either a one-to-many or many-to-many relationship. For the main table (Card) it will have a one-to-many relationship with the rarity table since there can be many cards with a singular rarity association. The other one being the deck association
       </p>
     </div>
     <div class="col-lg-6">
