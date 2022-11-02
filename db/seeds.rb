@@ -25,30 +25,30 @@ yugioh = CSV.parse(csv_data, headers: true)
 #   ele: "Light",
 #   power: "400 / 500")
 
-# yugioh.each do |data|
-#   rarity = Rarity.find_or_create_by(name: data["Rarity"])
+yugioh.each do |data|
+  rarity = Rarity.find_or_create_by(name: data["Rarity"])
 
-#   if rarity && rarity.valid?
-#     rarity.card.create(
-#       name: data['card name'],
-#       ability: data['Card type'],
-#       photo: data['image'],
-#       ele: data['Attribute'],
-#       power: data['ATK / DEF']
-#     )
-#   end
-# end
+  if rarity && rarity.valid?
+    rarity.card.create(
+      name: data['card name'],
+      ability: data['Card type'],
+      photo: data['image'],
+      ele: data['Attribute'],
+      power: data['ATK / DEF']
+    )
+  end
+end
 
 # 15.times do
 #   User.create(username: Faker::Commerce.unique.product_name)
 # end
 
-# 20.times do
-#   Deck.create(
-#     title: Faker::Commerce.unique.product_name,
-#     user_id: Faker::Number.between(from: 1, to: 15),
-#     card_id: Faker::Number.between(from: 1, to: 160)
-#   )
-# end
+20.times do
+  Deck.create(
+    title: Faker::Commerce.unique.product_name,
+    user_id: Faker::Number.between(from: 1, to: 15),
+    card_id: Faker::Number.between(from: 1, to: 160)
+  )
+end
 
 
